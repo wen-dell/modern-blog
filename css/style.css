@@ -4,8 +4,12 @@ p {
     font-family: 'Hind Guntur', sans-serif;
 }
 
-.card {
-    width:400px;
+.main-card {
+    width: 100%;
+}
+
+.sub-card {
+    width:100%;
 }
 
 .card p {
