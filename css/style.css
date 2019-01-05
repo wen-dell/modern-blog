@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur:300|Major+Mono+Display|Paytone+One');
+
+p {
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+.brand-logo {
+    font-family: 'Major Mono Display', monospace;
+}
+
+.card-title {
+    font-family: 'Paytone One', sans-serif;
+}
