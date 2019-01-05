@@ -4,10 +4,30 @@ p {
     font-family: 'Hind Guntur', sans-serif;
 }
 
+.card {
+    width:400px;
+}
+
+.card p {
+    text-align: justify;
+}
+
 .brand-logo {
     font-family: 'Major Mono Display', monospace;
+    margin-left: 20px;
 }
 
 .card-title {
     font-family: 'Paytone One', sans-serif;
+    color: #0288d1;
+}
+
+.card-title:hover {
+    color: #0277bd;
+    cursor: pointer;
+}
+
+.chip:hover {
+    background-color: #cecbcb;
+    cursor: pointer;
 }
