@@ -18,7 +18,7 @@ p {
 
 .brand-logo {
     font-family: 'Major Mono Display', monospace;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .card-title {
@@ -42,6 +42,8 @@ p {
     border: none;
     border-radius: 16px;
     padding: 8px 16px;
+    margin-left: 15vw;
+    font-weight: bold;
 }
 
 .custom-button:hover {

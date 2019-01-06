@@ -14,13 +14,19 @@
 
     <nav>
         <div class="nav-wrapper light-blue darken-2">
-            <a href="index.html" class="brand-logo">Modern Blog</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <a href="#!" class="brand-logo">Modern Blog</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </div>
     </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
 
     <div class="container">
         <div class="row">
@@ -44,7 +50,7 @@
         </div>
 
         <div class="row">
-            <div class="col s6 m6">
+            <div class="col s12 m6">
                 <div class="card sub-card hoverable">
                     <div class="card-content">
                         <img src="img/goals.jpg" class="sub-image" alt="Goals">
@@ -64,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s6 m6">
+            <div class="col s12 m6">
                 <div class="card sub-card hoverable">
                     <div class="card-content">
                         <img src="img/timer.jpg" class="sub-image" alt="Timer">
@@ -84,7 +90,7 @@
         </div>
 
         <div class="row">
-            <div class="col s6 m6">
+            <div class="col s12 m6">
                 <div class="card sub-card hoverable">
                     <div class="card-content">
                         <img src="img/books.jpg" class="sub-image" alt="Books on a shelf">
@@ -92,7 +98,7 @@
                         <p class="info-author">Published by: <a href="#">Carlos Almeida</a> in 01/01/2019</p>
                         <p>
                             In today's post I'm gonna show you one very good collection of books
-                            for beginners in English. I really like these books because although 
+                            for beginners in English. I really like these books because although
                             they have very simple words, they are really well written . . .
                         </p>
                         <div class="chip">
@@ -101,7 +107,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s6 m6">
+            <div class="col s12 m6">
                 <div class="card sub-card hoverable">
                     <div class="card-content">
                         <img src="img/letters.jpeg" class="sub-image" alt="Cube-shaped letters">
@@ -122,12 +128,19 @@
     </div>
 
     <div class="row">
-        <div class="col s2 offset-s2">
+        <div class="col s12">
             <button type="button" class="custom-button">Next</button>
         </div>
     </div>
 
     <footer class="page-footer light-blue darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <p class="white-text">Design created by: <a class="white-text" href="https://github.com/wen-dell" target="_blank">Wendell Alves</a></p>
+                </div>
+            </div>
+        </div>
         <div class="footer-copyright">
             <div class="container">
                 <p class="center-align">© Modern Blog - Copyright 2019 All Rigths Reserved</p>
@@ -135,7 +148,9 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="js/materialize.min.css"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
 </body>
 
