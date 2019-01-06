@@ -1,0 +1,28 @@
+input[type="text"], textarea {
+    border: 1px solid #b8b5b5 !important;
+    border-radius: 16px !important;
+}
+
+h4 {
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border: 2px solid #a5a4a4 !important;
+}
+
+button[type="submit"] {
+    border-radius: 16px;
+}
+
+textarea {
+    height: 160px;
+    width: 100%;
+    resize: none;
+    outline: none !important;
+    padding-top: 6px !important;
+}
+
+textarea::placeholder {
+    font-size: 16px;
+}

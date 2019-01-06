@@ -2,3 +2,11 @@
     width: 125px;
     height: 125px;
 }
+
+h4 {
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
