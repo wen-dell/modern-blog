@@ -59,6 +59,10 @@ p {
     height: 180px;
 }
 
+.info-author {
+    color: #00000099;
+}
+
 ::-webkit-scrollbar {
     width: 12px;
 }
